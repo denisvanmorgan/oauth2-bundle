@@ -11,6 +11,14 @@
         <service id="Trikoder\Bundle\OAuth2Bundle\Manager\ScopeManagerInterface" alias="Trikoder\Bundle\OAuth2Bundle\Manager\InMemory\ScopeManager" />
         <service id="Trikoder\Bundle\OAuth2Bundle\Manager\AuthorizationCodeManagerInterface" alias="Trikoder\Bundle\OAuth2Bundle\Manager\InMemory\AuthorizationCodeManager" />
 
+        <service id="Trikoder\Bundle\OAuth2Bundle\Model\AccessTokenInterface" alias="Trikoder\Bundle\OAuth2Bundle\Model\AccessToken" />
+        <service id="Trikoder\Bundle\OAuth2Bundle\Model\AuthorizationCodeInterface" alias="Trikoder\Bundle\OAuth2Bundle\Model\AuthorizationCode" />
+        <service id="Trikoder\Bundle\OAuth2Bundle\Model\ClientInterface" alias="Trikoder\Bundle\OAuth2Bundle\Model\Client" />
+        <service id="Trikoder\Bundle\OAuth2Bundle\Model\GrantInterface" alias="Trikoder\Bundle\OAuth2Bundle\Model\Grant" />
+        <service id="Trikoder\Bundle\OAuth2Bundle\Model\RedirectUriInterface" alias="Trikoder\Bundle\OAuth2Bundle\Model\RedirectUri" />
+        <service id="Trikoder\Bundle\OAuth2Bundle\Model\RefreshTokenInterface" alias="Trikoder\Bundle\OAuth2Bundle\Model\RefreshToken" />
+        <service id="Trikoder\Bundle\OAuth2Bundle\Model\ScopeInterface" alias="Trikoder\Bundle\OAuth2Bundle\Model\Scope" />
+
         <!-- Services -->
         <service id="Trikoder\Bundle\OAuth2Bundle\Manager\InMemory\ClientManager" />
         <service id="trikoder.oauth2.manager.in_memory.client_manager" alias="Trikoder\Bundle\OAuth2Bundle\Manager\InMemory\ClientManager">
